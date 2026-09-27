@@ -4,4 +4,10 @@ This works by checking each pixel and then finding the average colors between th
 This is version v1.0.0
 The versions are labeled V=version fisrt number=major update second number= CSS update 3rd number=Bug fixes.
 
+How to use
+download the file and also download VScode.
+in vs code click file and then open folder then open the folder that you downloaded.
+then run and debug the HTML file to get the app working
+when you are done you can refresh the page to make more photos.
+
 Currently working on CSS/v1.0.1 no guarantees of future updates.
