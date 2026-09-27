@@ -1,0 +1,19 @@
+<!doctype HTML>
+<head>
+    <title>Image Averager</title>
+    <link rel="stylesheet" href="Image Averager CSS.css">
+</head>
+<body>
+    <div>
+    <h1>Image Averager</h1>
+    <P>This application lets you put in multiple images and it will find the averaged image from them. Disclaimer this will squish the images to be 500 by 500 px and the output will be 500px by 500px. This does not affect your files.
+    </P>
+    <div id="dropzone">Drop an image here</div>
+     <input type="file" id="Image-Input" accept="image/*" multiple>
+    <div id="gallery"></div>
+    <button id="ProcessImages">Process Images</button>
+    <button id="DownloadOutput" style="display: none;">Download Image</button>
+    </div>
+    <canvas id="OutputCanvas"></canvas>
+    <script src="Image Averager JS.js"></script>
+</body>
